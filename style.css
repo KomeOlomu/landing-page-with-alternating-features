@@ -1,0 +1,16 @@
+:root {
+  --heading-font-family: ("Poppins", sans-serif);
+  --default-font-family: ("Open Sans", sans-serif);
+
+  /* Primary Color */
+  --Pink: hsl(322, 100%, 66%);
+
+  /* Neutral Colors */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+body {
+  font-size: 18px;
+}
