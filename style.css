@@ -14,3 +14,65 @@
 body {
   font-size: 18px;
 }
+.container {
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.hero {
+  background-image: url("/images/bg-hero-desktop.svg");
+  background-color: var(--Very-Pale-Cyan);
+  padding: 20px 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.hero .row {
+  margin: 40px;
+}
+
+.first-get-started {
+  margin-top: 90px;
+  padding: 0px 20px;
+  font-family: var(--default-font-family);
+}
+.header img {
+  height: 30px;
+}
+
+.btn-light {
+  width: 180px;
+  border-radius: 55px;
+  border: 1px solid rgba(255, 255, 255, 0.907);
+  background-color: white;
+  padding: 10px 0px;
+  color: var(--Very-Dark-Cyan);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.first-get-started h1 {
+  font-size: 34px;
+  line-height: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.first-get-started p {
+  font-size: 17px;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.get-started-btn {
+  width: 250px;
+  border-radius: 55px;
+  border: 1px solid rgba(255, 255, 255, 0.907);
+  background-color: var(--Pink);
+  padding: 15px 0px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
