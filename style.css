@@ -212,7 +212,161 @@ footer .social-links a {
   margin: 40px 0px;
 }
 
-.social-links p {
+footer .copy {
   font-size: 13px;
-  margin: 250px 0px 0px 0px;
+  margin: 0px 950px;
+}
+
+.get-started-btn:hover,
+.footer-btn:hover {
+  background-color: hsl(322, 95%, 84%);
+  border: 1px solid rgba(255, 255, 255, 0.907);
+}
+
+.btn-light:hover {
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.907);
+  color: rgb(196, 196, 196);
+}
+
+@media screen and (min-width: 360px) and (max-width: 900px) {
+  body {
+    position: relative;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header {
+    margin: 0px 13px;
+  }
+
+  .header img {
+    height: 15px;
+  }
+  .hero .row {
+    margin: 0px;
+  }
+  .header button {
+    margin-right: -40px;
+    width: 120px;
+    padding: 3px 0px;
+    margin-top: 20px !important;
+  }
+
+  .first-get-started h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .first-get-started p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .get-started-btn {
+    padding: 10px 0px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+  }
+  .feature-blocks {
+    padding: 20px;
+  }
+  .first-block,
+  .second-block,
+  .third-block {
+    margin: 0px 0px;
+  }
+  .first-block {
+    margin-top: 50px !important;
+  }
+  .second-block,
+  .third-block {
+    margin-top: 40px;
+  }
+  .first-block,
+  .second-block,
+  .third-block {
+    border: 10px solid #ffffff;
+  }
+  .first-block img,
+  .second-block img,
+  .third-block img {
+    margin: 0px 0px;
+  }
+  .first-block h2,
+  .second-block h2,
+  .third-block h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .first-block p,
+  .second-block p,
+  .third-block p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .third-block {
+    margin-bottom: 50px;
+  }
+  .fourth-block {
+    width: 340px;
+    border: 20px solid #ffffff;
+    margin-left: 20px !important;
+    margin-bottom: -20px !important;
+    margin: 0px 0px;
+  }
+  .fourth-block h2 {
+    margin-bottom: 30px !important;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .footer-btn {
+    margin-bottom: 30px !important;
+    width: 220px;
+    padding: 12px 0px;
+    font-size: 12px;
+    margin: 0px 35px;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer p,
+  footer ul {
+    font-size: 15px;
+  }
+
+  footer .row {
+    margin-top: 40px;
+  }
+
+  .logo-white {
+    width: 50%;
+  }
+
+  footer li {
+    margin: 20px -10px;
+  }
+  .social-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+  }
+  footer .social-links a {
+    margin: 0px 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  footer .copy {
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+  }
 }
