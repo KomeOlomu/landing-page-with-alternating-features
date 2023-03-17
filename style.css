@@ -138,7 +138,7 @@ body {
   margin: 0px 350px;
   display: inline-block;
   position: relative;
-  margin-bottom: -200px;
+  margin-bottom: -70px;
 }
 .fourth-block h2 {
   text-align: center;
@@ -163,4 +163,56 @@ footer {
   background-color: var(--Very-Dark-Cyan);
   color: white;
   padding: 100px;
+}
+
+footer .row {
+  margin-top: 90px;
+  font-size: 16px;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+}
+
+.icon-phone,
+.icon-location,
+.icon-email {
+  margin-bottom: 23px;
+  height: 20px;
+}
+.location p,
+.phone p,
+.email p {
+  margin: 0px 20px;
+}
+
+li {
+  list-style: none;
+  display: list-item;
+  margin: 40px 0px;
+}
+
+footer .social-links a {
+  margin: 0px 13px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.social-links {
+  margin: 40px 0px;
+}
+
+.social-links p {
+  font-size: 13px;
+  margin: 250px 0px 0px 0px;
 }
